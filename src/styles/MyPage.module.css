@@ -1,0 +1,49 @@
+.MyPage_container {
+    width: 100%;
+    height: 100vh;
+}
+.MyPage_userName {
+    width: 65%;
+    height: 8%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+.MyPage_userName>h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Posts_list {
+    width: 65%;
+    height: 82%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Posts {
+    width: 95%;
+    height: 140px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 14px;
+    box-shadow: 1px 1px 10px -4px rgb(171, 171, 171);
+    transition: all 0.3s;
+}
+.Posts:hover {
+    background-color: rgb(215, 215, 215);
+    box-shadow: 1px 1px 10px -4px rgb(104, 104, 104);
+}
+.Posts>h3 {
+    position: relative;
+    top: 8%;
+    left: 3%;
+}
+.Posts>p {
+    position: relative;
+    top: 18%;
+    left: 3%;
+}

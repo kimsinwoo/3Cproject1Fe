@@ -1,0 +1,74 @@
+.container {
+    width: 88%;
+    height: 170px;
+    background-color: rgb(239, 239, 239);
+    margin: 35px 0 0 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.3s;
+    border-radius: 14px;
+}
+.container2 {
+    width: 88%;
+    height: 170px;
+    background-color: rgb(239, 239, 239);
+    margin: 35px 0 0 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.3s;
+    border-radius: 14px;
+}
+.container:hover {
+    background-color: rgb(209, 209, 209);
+}
+.title_content{
+    width: 80%;
+    height: 40%;
+    position: relative;
+    top: 16%;
+    margin: 0 0 0 30px;
+    font-weight: 800;
+}
+.title_content2{
+    width: 80%;
+    height: 40%;
+    position: relative;
+    color: gray;
+    top: 16%;
+    margin: 0 0 0 30px;
+    font-weight: 800;
+}
+.title_content>h2{
+    margin: 0 0 10px 0;
+}
+.title_content2>h2{
+    margin: 0 0 10px 0;
+}
+.user_date{
+    width: 80%;
+    height: 40%;
+    margin: 60px 0 0 30px;
+}
+.user_date2{
+    width: 80%;
+    height: 40%;
+    margin: 60px 0 0 30px;
+    color: gray;
+}
+.isDone {
+    position: absolute;
+    top: 60%;
+    margin:  0 0 0 91%;
+    padding: 9px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.DeleteButton {
+    width: 60px;
+    height: 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

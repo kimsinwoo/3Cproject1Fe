@@ -1,0 +1,93 @@
+* {
+    font-family: 'Pretendard-Regular';
+}
+.Recruitents_body {
+    width: 100%;
+    height: 90vh;
+    margin: 15px 0 0 0;
+}
+.Posts_container {
+    width: 88%;
+    height: 200px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 12px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 35px 0 0 0;
+    transition: all 0.3s;
+    overflow: scroll;
+}
+.Posts_container>h1 {
+    position: relative;
+    top: 14%;
+    left: 5%;
+    width: 80%;
+    height: 25%;
+    font-weight: 500;
+    overflow: scroll;
+    font-size: 30px;
+}
+.Posts_container>p {
+    position: relative;
+    width: 80%;
+    height: 55%;
+    top: 15%;
+    left: 5%;
+    overflow: scroll;
+    font-size: 20px;
+}
+.Posts_container::-webkit-scrollbar {
+   display: none;
+}
+.Posts_container>h1::-webkit-scrollbar {
+    display: none;
+ }
+ .Posts_container>p::-webkit-scrollbar {
+    display: none;
+ }
+.Posts_container:hover {
+    box-shadow: 5px 5px 4px -4px rgb(219, 219, 219);
+    background-color: rgb(220, 220, 220);
+}
+.recruitents_button {
+    width: 88%;
+    height: 4.5%;
+    position: relative;
+    top: 0.8%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.recruitents_button>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.recruitents_button>div>button {
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+.recruitents_button>div>button:nth-child(1) {
+    width: 49%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 12px -4px rgb(160, 160, 160);
+}
+.recruitents_button>div>button:nth-child(2) {
+    width: 49%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 12px -4px rgb(160, 160, 160);
+}
+.recruitents_button>div>button:hover{
+    width: 49%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 12px -2px rgb(160, 160, 160);
+    background-color: rgb(210, 210, 210);
+}
